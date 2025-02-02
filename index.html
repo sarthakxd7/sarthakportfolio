@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Sarthak Portfolio</title>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>
+                    Sarthak Hardiya
+                </span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">Assignment</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Achievements</a>
+                
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Connect</a></div>
+              
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">Assignment</a>
+                <a href="">Achievements</a>
+                <a href="">Projects</a>
+                <a href="">Connect</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="main.png" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Sarthak</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000"> Pursuing Btech-Mtech(IT) <br>I am a Tech Enthusiast and a Competitive Programmer and Have a keen interest in DSA </p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="https://github.com/sarthakxd7" ><img src="images\icons8-github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/sarthak-hardiya-5b045428b/"><img src="images\icons8-linkedin.svg" alt=""></a>
+                        <a href="https://leetcode.com/u/sarthakhardia7/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="leetcode-icon">
+                        </a>
+                        <a href="https://www.geeksforgeeks.org/user/sarthakhaxyde/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GeeksforGeeks" class="gfg-icon">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+        <section id="assignment">
+            <h2 class="assignment-title">Achievements & Certifications</h2>
+            <div class="assignment-container">
+                <div class="assignment-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="" alt="assignment 1">
+                   
+                    <p>assignment</p>
+                    <a href="" target="_blank" class="btn">View </a>
+                </div>
+        
+                <div class="assignment-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="" alt="assignment 1">
+                   
+                    <p>assignment</p>
+                    <a href="" target="_blank" class="btn">View </a>
+                </div>
+                <!-- Add more certificates as needed -->
+            </div>
+        </section>
+        <section id="achievements">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="certificates-container">
+                <div class="certificate-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="images\WhatsApp Image 2025-02-01 at 12.09.10.jpeg" alt="Certificate 1">
+                    <h3>Google Cloud platform </h3>
+                    <p>Issued by: google Cloud</p>
+                    <a href="images\WhatsApp Image 2025-02-01 at 12.09.10.jpeg" target="_blank" class="btn">View </a>
+                </div>
+        
+                <div class="certificate-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="images\1c8d331d-5ba3-405c-9df6-a607887a0dfb.jpg" alt="Certificate 2">
+                    <h3>Database Management</h3>
+                    <p>Issued by: Udemy</p>
+                    <a href="images\1c8d331d-5ba3-405c-9df6-a607887a0dfb.jpg" target="_blank" class="btn">View </a>
+                </div>
+                <!-- Add more certificates as needed -->
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-container">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="certificates/cert1.jpg" alt="Certificate 1">
+                    <h3>AI using python</h3>
+                   
+                    <a href="certificates/cert1.pdf" target="_blank" class="btn">View project1</a>
+                </div>
+        
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="certificates/cert2.jpg" alt="Certificate 2">
+                    <h3>Certification Name</h3>
+                    
+                    <a href="certificates/cert2.pdf" target="_blank" class="btn">View project 2</a>
+                </div>
+                <!-- Add more certificates as needed -->
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+            
+   
+</script>
+
+        
+</body>
+</html>
